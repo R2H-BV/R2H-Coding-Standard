@@ -1,0 +1,17 @@
+{
+    "name": "r2h-bv/r2h-coding-standard",
+    "description": "The R2H coding standard.",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Snoeren",
+            "email": "post@r2h.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+	"prefer-stable": true,
+    "require": {
+        "slevomat/coding-standard": "^6.3"
+    }
+}
