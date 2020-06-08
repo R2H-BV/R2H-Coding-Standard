@@ -1,5 +1,5 @@
 {
-    "name": "r2h-bv/r2h-coding-standard",
+    "name": "r2h/r2h-coding-standard",
     "description": "The R2H coding standard.",
     "type": "phpcodesniffer-standard",
     "license": "MIT",
