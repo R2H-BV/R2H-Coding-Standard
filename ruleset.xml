@@ -3,7 +3,7 @@
     name="R2H"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="vendor/squizlabs/php_codesniffer/phpcs.xsd">
-    <config name="installed_paths" value="vendor/slevomat/coding-standard" />
+    <config name="installed_paths" value="../../slevomat/coding-standard" />
 
     <!-- Fully require PSR-2 except for the fact that every file should contain a class. -->
 	<rule ref="PSR2">
