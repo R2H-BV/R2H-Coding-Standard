@@ -58,7 +58,6 @@
     <rule ref="SlevomatCodingStandard.Namespaces.DisallowGroupUse" />
     <rule ref="SlevomatCodingStandard.Namespaces.MultipleUsesPerLine" />
     <rule ref="SlevomatCodingStandard.Namespaces.UseDoesNotStartWithBackslash" />
-    <rule ref="SlevomatCodingStandard.Commenting.EmptyComment" />
     <rule ref="SlevomatCodingStandard.Classes.MethodSpacing">
         <properties>
             <property
@@ -79,7 +78,7 @@
                 value="0" />
             <property
                 name="linesCountAfterLastUseWhenLastInClass"
-                value="1" />
+                value="0" />
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.Classes.EmptyLinesAroundClassBraces">
