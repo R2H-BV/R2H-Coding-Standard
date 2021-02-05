@@ -10,6 +10,9 @@
 		<exclude name="PSR1.Classes.ClassDeclaration" />
 	</rule>
 
+    <!-- Class property comments are required. -->
+    <rule ref="Squiz.Commenting.VariableComment" />
+
     <!-- Function commenting is required. -->
 	<rule ref="Squiz.Commenting.FunctionComment">
 		<exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing" />
