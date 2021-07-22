@@ -25,14 +25,14 @@
     <rule ref="SlevomatCodingStandard.TypeHints.DeclareStrictTypes">
         <properties>
             <property
-                name="newlinesCountBetweenOpenTagAndDeclare"
-                value="1" />
+                name="linesCountBeforeDeclare"
+                value="0" />
             <property
                 name="spacesCountAroundEqualsSign"
                 value="1" />
             <property
-                name="newlinesCountAfterDeclare"
-                value="2" />
+                name="linesCountAfterDeclare"
+                value="1" />
         </properties>
     </rule>
     <rule ref="SlevomatCodingStandard.ControlStructures.RequireNullCoalesceOperator" />
@@ -99,7 +99,7 @@
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing" />
     <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint">
         <!-- Exclude the useless annotation sniff. -->
-        <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.UselessAnnotation"/>
+        <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.UselessAnnotation" />
     </rule>
 
 	<exclude-pattern>bootstrap/cache/*</exclude-pattern>
