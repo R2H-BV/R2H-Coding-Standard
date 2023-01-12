@@ -102,6 +102,13 @@
         <exclude name="SlevomatCodingStandard.TypeHints.ReturnTypeHint.UselessAnnotation" />
     </rule>
 
+    <!-- Ensure that functions are easy to read. -->
+    <rule ref="SlevomatCodingStandard.Complexity.Cognitive">
+        <properties>
+            <property name="maxComplexity" value="5" />
+        </properties>
+    </rule>
+
 	<exclude-pattern>bootstrap/cache/*</exclude-pattern>
 	<exclude-pattern>public/*</exclude-pattern>
 	<exclude-pattern>resources/*</exclude-pattern>
