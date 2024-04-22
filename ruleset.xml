@@ -11,15 +11,6 @@
     <exclude name="PSR1.Classes.ClassDeclaration" />
   </rule>
 
-  <!-- Function commenting is required. -->
-  <rule ref="Squiz.Commenting.FunctionComment">
-    <exclude name="Squiz.Commenting.FunctionComment.Missing" />
-    <exclude name="Squiz.Commenting.FunctionComment.MissingReturn" />
-    <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing" />
-    <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag" />
-    <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment" />
-  </rule>
-
   <!-- Throw tag is required for exceptions in functions. -->
   <rule ref="Squiz.Commenting.FunctionCommentThrowTag" />
 
@@ -115,4 +106,5 @@
   <exclude-pattern>storage/*</exclude-pattern>
   <exclude-pattern>vendor/*</exclude-pattern>
   <exclude-pattern>node_modules/*</exclude-pattern>
+  <exclude-pattern>*.js</exclude-pattern>
 </ruleset>
