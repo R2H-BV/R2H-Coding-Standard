@@ -90,8 +90,11 @@
   </rule>
 
   <!-- Typehinting is required. -->
+  <rule ref="SlevomatCodingStandard.TypeHints.LongTypeHints" />
   <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHintSpacing" />
-  <rule ref="SlevomatCodingStandard.TypeHints.ReturnTypeHint" />
+  <rule ref="SlevomatCodingStandard.TypeHints.DisallowArrayTypeHintSyntax" />
+  <rule ref="SlevomatCodingStandard.TypeHints.NullableTypeForNullDefaultValue" />
+  <!-- We do not check iteratable types anymore as phpstan enforces this anyway. -->
 
   <!-- Ensure that functions are easy to read. -->
   <rule ref="SlevomatCodingStandard.Complexity.Cognitive">
