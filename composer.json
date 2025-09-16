@@ -12,6 +12,11 @@
     "minimum-stability": "dev",
 	"prefer-stable": true,
     "require": {
-        "slevomat/coding-standard": "^8.8.0"
+        "slevomat/coding-standard": "^8"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
     }
 }

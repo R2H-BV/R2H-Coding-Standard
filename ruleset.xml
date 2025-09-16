@@ -104,6 +104,7 @@
   </rule>
 
   <exclude-pattern>bootstrap/cache/*</exclude-pattern>
+  <exclude-pattern>bootstrap/providers.php</exclude-pattern>
   <exclude-pattern>public/*</exclude-pattern>
   <exclude-pattern>resources/*.blade.php</exclude-pattern>
   <exclude-pattern>storage/*</exclude-pattern>
